@@ -70,7 +70,7 @@ body {
 /* HEADER END */
 
 /* HERO SECTION */
-section {
+#hero {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -79,7 +79,7 @@ section {
   align-items: center;
 }
 
-section #text {
+#hero #text {
   position: absolute;
   color: #094b65;
   font-size: 10vw;
@@ -89,7 +89,7 @@ section #text {
   transform: translateY(-50%);
 }
 
-section #text span {
+#hero #text span {
   font-size: 1.7rem;
   letter-spacing: 2px;
   font-weight: 400;
@@ -108,3 +108,27 @@ section #text span {
   border-radius: 40px;
   transform: translateY(100px);
 }
+
+/*HERO SECTION END */
+
+/*DESCRIPTION SECTION */
+
+#description {
+  position: relative;
+  padding: 100px;
+  background: #094b65;
+}
+
+#description h2 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#description p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* DESCRIPTION SECTION END */
